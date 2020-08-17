@@ -1,0 +1,23 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralphm10/notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralphm10/notes/issues"
+  },
+  "homepage": "https://github.com/ralphm10/notes#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "save": "^2.4.0"
+  }
+}

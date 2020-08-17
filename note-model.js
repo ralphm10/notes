@@ -4,4 +4,5 @@
   };
 
   exports.Note = Note;
+
 })(this);
