@@ -5,4 +5,9 @@
 
   exports.Note = Note;
 
+  Note.prototype.getText = function () {
+    return this.text;
+
+  };
+
 })(this);
