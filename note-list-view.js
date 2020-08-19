@@ -7,7 +7,14 @@
 
   NoteListView.prototype.getHTML = function () {
 
-    return '<ul><li><div>' + this.list.getList()[0].getText() + '</div></li><li><div>' + this.list.getList()[1].getText() + '</div></li></ul>';
+    var notearray = this.list.getList();
+    var textarray = [];
+
+    for(let i = 0; i < notearray.length; i++) {
+      textarray.push(notearray[i].getText());
+    }
+
+    return '<ul><li><div>' + textarray.join('</div></li><li><div>') + '</div></li></ul>';
 
   };
 
