@@ -10,5 +10,5 @@
     return '<div>' + this.note.getText() + '</div>'
 
   };
-exports.SingleNote = SingleNote;
+  exports.SingleNote = SingleNote;
 })(this);

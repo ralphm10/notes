@@ -3,7 +3,7 @@
   this.nl = new NoteList();  // global scope
 
   function NoteController(notelist = nl) {
-    notelist.createNew('Favourite drink: Beer');
+    //notelist.createNew('Favourite drink: Beer');
     this.view = new NoteListView(notelist)
   };
 

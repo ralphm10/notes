@@ -8,12 +8,9 @@ var counter = 0;
     counter ++;
   };
 
-  exports.Note = Note;
-
-  Note.prototype.getText = function () {
+    Note.prototype.getText = function () {
     return this.text;
 
   };
-
+  exports.Note = Note;
 })(this);
-``
